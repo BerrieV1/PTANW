@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 97d4d6ad7853dd4499d4197a0b46ec68
+  - enabled: 1
+    path: Assets/Scenes/BackupPhilippeScene.unity
+    guid: 799fed7a159172b4c8561bd6bdba94a0
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e9b4a39dccc152948abbc4a61bd331e7, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d7adba9fd5b720148874d956d96a429e, type: 2}
