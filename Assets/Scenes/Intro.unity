@@ -1021,7 +1021,6 @@ GameObject:
   - component: {fileID: 720124998}
   - component: {fileID: 720125001}
   - component: {fileID: 720125000}
-  - component: {fileID: 720124999}
   m_Layer: 0
   m_Name: Cube (392)
   m_TagString: Untagged
@@ -1044,27 +1043,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 288416518}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &720124999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720124997}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &720125000
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1299,15 +1277,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -6343,32 +6319,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &795143186 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-  m_PrefabInstance: {fileID: 1505513127}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &795143194
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795143186}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 2.2339199, z: 1}
-  m_Center: {x: 1.7662034e-10, y: -0.10138262, z: 7.2038424e-11}
 --- !u!1 &817268421
 GameObject:
   m_ObjectHideFlags: 0
@@ -6618,32 +6568,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820465623}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &846400956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 718520188591579407, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-  m_PrefabInstance: {fileID: 1505513127}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &846400958
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846400956}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2987119, y: 2.123424, z: 1.0000001}
-  m_Center: {x: -4.94843, y: -0.56171, z: -0.000004738409}
 --- !u!1 &912438784
 GameObject:
   m_ObjectHideFlags: 0
@@ -6884,6 +6808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Rig (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 718520188591579407, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1363101907400479854, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_CameraYOffset
       value: 0
@@ -6944,6 +6872,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.023
       objectReference: {fileID: 0}
+    - target: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7093088540314059188, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
@@ -6966,12 +6898,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 817268422}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 718520188591579407, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 846400958}
-    - targetCorrespondingSourceObject: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 795143194}
     - targetCorrespondingSourceObject: {fileID: 213471333200870288, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1505513135}
@@ -7326,6 +7252,7 @@ GameObject:
   - component: {fileID: 1681565040}
   - component: {fileID: 1681565039}
   - component: {fileID: 1681565043}
+  - component: {fileID: 1681565044}
   m_Layer: 0
   m_Name: floor
   m_TagString: Untagged
@@ -7397,12 +7324,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20.39225, y: 0.9999998, z: 1}
-  m_Center: {x: 9.696118, y: -0.0000000036224985, z: 0}
+  m_Size: {x: 65.04984, y: 0.9999998, z: 1}
+  m_Center: {x: 32.024902, y: -0.0000000119646, z: 0}
 --- !u!23 &1681565041
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7466,6 +7393,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: BackupPhilippeScene
+--- !u!54 &1681565044
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681565037}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1729355721
 GameObject:
   m_ObjectHideFlags: 0
@@ -7545,15 +7499,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}

@@ -10,32 +10,44 @@ public class Elevator : MonoBehaviour
     public GameObject elevatorObject;
     bool trigger = false;
     private ChangeMusic musicChanger;
-    public AudioClip clip;
+    public AudioClip clipElevator;
+    public AudioClip clipArrived;
+    private bool playedElevatorSound = false;
+    public GameObject xrRig;
+    public GameObject character;
+    private CharacterController controller;
 
 
     void Start()
     {
         // Set the target position of the object
         targetPosition = new Vector3(elevatorObject.transform.position.x, 1543, elevatorObject.transform.position.z);
+        controller = character.GetComponent<CharacterController>();
     }
 
     void Update()
     {
         if(trigger)
         {
-            if(elevatorObject.transform.position.y < 139.5f)
+            if(elevatorObject.transform.position.y < 105.339f)
             {
-                Debug.Log("elevating");
+                controller.enabled = false;
                 MoveElevatorUp();
-            } else
+                MoveXrRig();
+            } else if(!playedElevatorSound)
             {
                 ChangeMusic.StopMusic();
+                ChangeMusic.PlayArrivalSound(clipArrived);
+                playedElevatorSound = true;
+                controller.enabled = true;
+                Debug.Log(controller.enabled);
+                trigger = false;
             }
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        ChangeMusic.ChangeAudioClip(clip);
+        ChangeMusic.ChangeAudioClip(clipElevator);
         TriggerElevator();
         trigger = true;
     }
@@ -51,6 +63,11 @@ public class Elevator : MonoBehaviour
     private void MoveElevatorUp()
     {
         // Move the elevator up by 0.01 units per frame
-        elevatorObject.transform.position += new Vector3(0, 90f, 0) * speed * Time.deltaTime;
+        elevatorObject.transform.position += new Vector3(0, 150f, 0) * speed * Time.deltaTime;
+    }
+    private void MoveXrRig()
+    {
+        // Move the elevator up by 0.01 units per frame
+        xrRig.transform.position += new Vector3(0, 150f, 0) * speed * Time.deltaTime;
     }
 }

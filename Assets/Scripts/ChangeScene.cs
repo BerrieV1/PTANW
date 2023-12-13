@@ -6,13 +6,27 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public string sceneName = "PhilippeScene";  // The name of the scene to load
+    public string sceneName;  // The name of the scene to load
 
     // This function is called when a collision occurs
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("collided and loading scene");
-        LoadScene();
+        if(collision.transform.tag == "Player")
+        {
+            Debug.Log("teleporting");
+            LoadScene();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("collided and loading scene");
+        if (other.transform.tag == "Player")
+        {
+            Debug.Log("teleporting");
+            LoadScene();
+        }
     }
 
     // Load the specified scene
@@ -24,4 +38,12 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("BackupPhilippeScene");
     }
+
+    private void LoadIntroScene()
+    {
+        SceneManager.LoadScene("Intro");
+    }
+
+
+
 }
