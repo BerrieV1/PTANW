@@ -42,4 +42,11 @@ public class ChangeMusic : MonoBehaviour
     {
         audioSource.Stop();
     }
+
+    public static void PlayArrivalSound(AudioClip clip)
+    {
+        audioSource.clip = clip;
+        audioSource.Play();
+        Debug.Log(audioSource.clip);
+    }
 }

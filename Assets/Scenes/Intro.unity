@@ -1299,15 +1299,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -6618,32 +6616,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820465623}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &846400956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 718520188591579407, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-  m_PrefabInstance: {fileID: 1505513127}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &846400958
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846400956}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2987119, y: 2.123424, z: 1.0000001}
-  m_Center: {x: -4.94843, y: -0.56171, z: -0.000004738409}
 --- !u!1 &912438784
 GameObject:
   m_ObjectHideFlags: 0
@@ -6884,6 +6856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete XR Rig (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 718520188591579407, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1363101907400479854, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_CameraYOffset
       value: 0
@@ -6944,6 +6920,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.023
       objectReference: {fileID: 0}
+    - target: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7093088540314059188, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
@@ -6966,9 +6946,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 817268422}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 718520188591579407, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 846400958}
     - targetCorrespondingSourceObject: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       insertIndex: -1
       addedObject: {fileID: 795143194}
@@ -7489,7 +7466,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -7573,15 +7550,13 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
-  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
-  m_UseCustomTrailVertexStreams: 0
-  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}

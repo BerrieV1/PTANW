@@ -12,7 +12,10 @@ public class ChangeScene : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("collided and loading scene");
-        LoadScene();
+        if(collision.transform.tag == "Player")
+        {
+            LoadScene();
+        }
     }
 
     // Load the specified scene
