@@ -29,10 +29,9 @@ public class Elevator : MonoBehaviour
     {
         if(trigger)
         {
-            controller.enabled = false;
             if(elevatorObject.transform.position.y < 105.339f)
             {
-                Debug.Log("elevating");
+                controller.enabled = false;
                 MoveElevatorUp();
                 MoveXrRig();
             } else if(!playedElevatorSound)
@@ -41,6 +40,8 @@ public class Elevator : MonoBehaviour
                 ChangeMusic.PlayArrivalSound(clipArrived);
                 playedElevatorSound = true;
                 controller.enabled = true;
+                Debug.Log(controller.enabled);
+                trigger = false;
             }
         }
     }

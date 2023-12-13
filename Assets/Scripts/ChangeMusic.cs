@@ -33,7 +33,6 @@ public class ChangeMusic : MonoBehaviour
 
     public static void ChangeAudioClip(AudioClip newClip)
     {
-        Debug.Log(newClip);
         audioSource.clip = newClip;
         audioSource.Play();
 

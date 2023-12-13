@@ -1021,7 +1021,6 @@ GameObject:
   - component: {fileID: 720124998}
   - component: {fileID: 720125001}
   - component: {fileID: 720125000}
-  - component: {fileID: 720124999}
   m_Layer: 0
   m_Name: Cube (392)
   m_TagString: Untagged
@@ -1044,27 +1043,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 288416518}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &720124999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720124997}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &720125000
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6341,32 +6319,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &795143186 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-  m_PrefabInstance: {fileID: 1505513127}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &795143194
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 795143186}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 2.2339199, z: 1}
-  m_Center: {x: 1.7662034e-10, y: -0.10138262, z: 7.2038424e-11}
 --- !u!1 &817268421
 GameObject:
   m_ObjectHideFlags: 0
@@ -6946,9 +6898,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 817268422}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5846477138944290682, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 795143194}
     - targetCorrespondingSourceObject: {fileID: 213471333200870288, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1505513135}
@@ -7375,12 +7324,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20.39225, y: 0.9999998, z: 1}
-  m_Center: {x: 9.696118, y: -0.0000000036224985, z: 0}
+  m_Size: {x: 65.04984, y: 0.9999998, z: 1}
+  m_Center: {x: 32.024902, y: -0.0000000119646, z: 0}
 --- !u!23 &1681565041
 MeshRenderer:
   m_ObjectHideFlags: 0
