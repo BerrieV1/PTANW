@@ -5,12 +5,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ObjectGrabCheck : MonoBehaviour
 {
-   private bool isGrabbed = false;
+   public bool isGrabbed = false;
    public XRGrabInteractable grabInteractable;
    public GameObject destroyOnGrab;
    public GameObject appearOnGrab;
    public GameObject lights;
-   public Animator animator;
+   public Animator animator1;
+    public Animator animator2;
 
    void Start()
    {
@@ -23,7 +24,7 @@ public class ObjectGrabCheck : MonoBehaviour
 
    void Update()
    {
-       isGrabbed = grabInteractable.isSelected;
+       //isGrabbed = grabInteractable.isSelected;
 
        if (isGrabbed)
        {
@@ -33,7 +34,8 @@ public class ObjectGrabCheck : MonoBehaviour
                lights.transform.GetChild(i).GetComponent<Light>().enabled = true;
            }
 
-           animator.Play("SinkAnimation");
+            animator1.Play("SinkAnimation");
+            animator2.Play("RiseAnimation");
        }
    }
 }
