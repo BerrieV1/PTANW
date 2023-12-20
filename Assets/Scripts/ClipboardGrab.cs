@@ -21,4 +21,9 @@ public class ClipboardGrab : MonoBehaviour
             map.SetActive(true);
         }
     }
+
+    public void ObjectIsGrabbed()
+    {
+        isGrabbed = true;
+    }
 }
