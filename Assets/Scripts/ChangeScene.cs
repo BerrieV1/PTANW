@@ -12,6 +12,9 @@ public class ChangeScene : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("collided and loading scene");
+        Debug.Log(sceneName);
+        Debug.Log(collision.transform.tag);
+
         if(collision.transform.tag == "Player")
         {
             Debug.Log("teleporting");
