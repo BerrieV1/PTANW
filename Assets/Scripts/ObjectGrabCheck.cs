@@ -12,6 +12,8 @@ public class ObjectGrabCheck : MonoBehaviour
    public GameObject lights;
    public Animator animator1;
     public Animator animator2;
+    public  GameObject followCube;
+    public GameObject map;
 
    void Start()
    {
@@ -36,6 +38,8 @@ public class ObjectGrabCheck : MonoBehaviour
 
             animator1.Play("SinkAnimation");
             animator2.Play("RiseAnimation");
+            Destroy(followCube);
+            map.SetActive(false);
        }
    }
 }
