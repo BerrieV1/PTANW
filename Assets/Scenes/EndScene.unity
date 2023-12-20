@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 7059cfdd72ab2b2418e78edd6f731cf7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -436,6 +436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -464,7 +468,7 @@ Animator:
   m_GameObject: {fileID: 11854843}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -827,6 +831,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1197,7 +1205,7 @@ Animator:
   m_GameObject: {fileID: 40835891}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1264,6 +1272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1292,7 +1304,7 @@ Animator:
   m_GameObject: {fileID: 42132012}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1466,6 +1478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1494,7 +1510,7 @@ Animator:
   m_GameObject: {fileID: 47497954}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1655,6 +1671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1683,7 +1703,7 @@ Animator:
   m_GameObject: {fileID: 59759885}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2009,6 +2029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2037,7 +2061,7 @@ Animator:
   m_GameObject: {fileID: 64331828}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2303,6 +2327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2331,7 +2359,7 @@ Animator:
   m_GameObject: {fileID: 72913570}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2691,6 +2719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2719,7 +2751,7 @@ Animator:
   m_GameObject: {fileID: 83962474}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2824,6 +2856,111 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &116843445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 116843449}
+  - component: {fileID: 116843448}
+  - component: {fileID: 116843447}
+  - component: {fileID: 116843446}
+  m_Layer: 0
+  m_Name: Cube (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &116843446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116843445}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &116843447
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116843445}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebff8e62adfb18a4bb9173846e16663a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &116843448
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116843445}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &116843449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116843445}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.17003748, y: 0.98543763, z: -0, w: 0}
+  m_LocalPosition: {x: -12.386, y: 1.8697629, z: 14.423}
+  m_LocalScale: {x: 2.100308, y: 0.20509008, z: 0.050819}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -19.58}
 --- !u!1 &121891029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,6 +4027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4259,7 +4400,7 @@ Animator:
   m_GameObject: {fileID: 174067488}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5160,6 +5301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5188,7 +5333,7 @@ Animator:
   m_GameObject: {fileID: 219662878}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5255,6 +5400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5283,7 +5432,7 @@ Animator:
   m_GameObject: {fileID: 221155350}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5443,6 +5592,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5813,7 +5966,7 @@ Animator:
   m_GameObject: {fileID: 226817019}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5854,6 +6007,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1501936626}
+  - {fileID: 935684853}
   m_Father: {fileID: 480082521}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &237418728
@@ -5946,6 +6100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5974,7 +6132,7 @@ Animator:
   m_GameObject: {fileID: 241106663}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6219,6 +6377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6247,7 +6409,7 @@ Animator:
   m_GameObject: {fileID: 258676254}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6477,6 +6639,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.183034, y: 7.11271, z: 11.897521}
   m_Center: {x: 0.4018781, y: 2.6381485, z: -0.39460757}
+--- !u!114 &259404343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259404336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dc31e26f86c4a449a65c764c7ea7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clapping: {fileID: 1677206110}
+  corwdLight: {fileID: 316931743}
+  isGrabbed: 0
+  grabInteractable: {fileID: 259404340}
+  army: {fileID: 0}
 --- !u!1 &263320611
 GameObject:
   m_ObjectHideFlags: 0
@@ -7251,6 +7430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7279,7 +7462,7 @@ Animator:
   m_GameObject: {fileID: 302199654}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7419,7 +7602,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316931742}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -7545,6 +7728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7573,7 +7760,7 @@ Animator:
   m_GameObject: {fileID: 317324683}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8027,6 +8214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8055,7 +8246,7 @@ Animator:
   m_GameObject: {fileID: 333489107}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8518,6 +8709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8887,7 +9082,7 @@ Animator:
   m_GameObject: {fileID: 344107832}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9587,6 +9782,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9615,7 +9814,7 @@ Animator:
   m_GameObject: {fileID: 377230397}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10980,6 +11179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11008,7 +11211,7 @@ Animator:
   m_GameObject: {fileID: 434251155}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11080,6 +11283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11108,7 +11315,7 @@ Animator:
   m_GameObject: {fileID: 435201210}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11501,6 +11708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11529,7 +11740,7 @@ Animator:
   m_GameObject: {fileID: 449297224}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11748,6 +11959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11776,7 +11991,7 @@ Animator:
   m_GameObject: {fileID: 456023231}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12049,6 +12264,7 @@ Transform:
   - {fileID: 1178158690}
   - {fileID: 1672052393}
   - {fileID: 1012044222}
+  - {fileID: 1503204371}
   - {fileID: 230939742}
   - {fileID: 1563535313}
   - {fileID: 480913632}
@@ -12302,6 +12518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12330,7 +12550,7 @@ Animator:
   m_GameObject: {fileID: 490346637}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12901,6 +13121,111 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503130460}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &507410934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507410938}
+  - component: {fileID: 507410937}
+  - component: {fileID: 507410936}
+  - component: {fileID: 507410935}
+  m_Layer: 0
+  m_Name: Cube (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &507410935
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507410934}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &507410936
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507410934}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebff8e62adfb18a4bb9173846e16663a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &507410937
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507410934}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &507410938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507410934}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.26429388, y: 0.9644422, z: 0, w: 0}
+  m_LocalPosition: {x: -12.486, y: 1.105, z: 14.423}
+  m_LocalScale: {x: 2.6896544, y: 0.20509008, z: 0.050819}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 30.65}
 --- !u!1 &513847142
 GameObject:
   m_ObjectHideFlags: 0
@@ -13062,6 +13387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13090,7 +13419,7 @@ Animator:
   m_GameObject: {fileID: 515430944}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13251,6 +13580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13279,7 +13612,7 @@ Animator:
   m_GameObject: {fileID: 520957930}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13346,6 +13679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13374,7 +13711,7 @@ Animator:
   m_GameObject: {fileID: 521943026}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13573,9 +13910,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1509161028143826, guid: c9839eba1bd794ae68f9cfae147fd22d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1908920140}
-    - targetCorrespondingSourceObject: {fileID: 1509161028143826, guid: c9839eba1bd794ae68f9cfae147fd22d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1908920139}
   m_SourcePrefab: {fileID: 100100000, guid: c9839eba1bd794ae68f9cfae147fd22d, type: 3}
 --- !u!1 &529345672
 GameObject:
@@ -14675,6 +15009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15044,7 +15382,7 @@ Animator:
   m_GameObject: {fileID: 556829143}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15205,6 +15543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15233,7 +15575,7 @@ Animator:
   m_GameObject: {fileID: 561456858}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15394,6 +15736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15422,7 +15768,7 @@ Animator:
   m_GameObject: {fileID: 578725959}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15649,6 +15995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15677,7 +16027,7 @@ Animator:
   m_GameObject: {fileID: 585632194}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -16421,13 +16771,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -21310,6 +21662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21338,7 +21694,7 @@ Animator:
   m_GameObject: {fileID: 599531284}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -21405,6 +21761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21433,7 +21793,7 @@ Animator:
   m_GameObject: {fileID: 601595329}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -21750,6 +22110,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22120,7 +22484,7 @@ Animator:
   m_GameObject: {fileID: 629354903}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22271,6 +22635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22299,7 +22667,7 @@ Animator:
   m_GameObject: {fileID: 637924716}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22366,6 +22734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22394,7 +22766,7 @@ Animator:
   m_GameObject: {fileID: 658767306}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22691,6 +23063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22719,7 +23095,7 @@ Animator:
   m_GameObject: {fileID: 664097986}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -23036,6 +23412,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23406,7 +23786,7 @@ Animator:
   m_GameObject: {fileID: 682180835}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -23682,6 +24062,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24052,7 +24436,7 @@ Animator:
   m_GameObject: {fileID: 687364756}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -24119,6 +24503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24147,7 +24535,7 @@ Animator:
   m_GameObject: {fileID: 691997346}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -24214,6 +24602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24242,7 +24634,7 @@ Animator:
   m_GameObject: {fileID: 692938120}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -24554,6 +24946,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24924,7 +25320,7 @@ Animator:
   m_GameObject: {fileID: 700220174}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -25927,13 +26323,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -30810,6 +31208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -31179,7 +31581,7 @@ Animator:
   m_GameObject: {fileID: 728817065}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -31246,6 +31648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31274,7 +31680,7 @@ Animator:
   m_GameObject: {fileID: 736275685}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -31446,6 +31852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31474,7 +31884,7 @@ Animator:
   m_GameObject: {fileID: 745033549}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -32661,6 +33071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32689,7 +33103,7 @@ Animator:
   m_GameObject: {fileID: 779412141}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -33353,6 +33767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33381,7 +33799,7 @@ Animator:
   m_GameObject: {fileID: 841558136}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -33636,6 +34054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33664,7 +34086,7 @@ Animator:
   m_GameObject: {fileID: 848325663}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -34048,6 +34470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34076,7 +34502,7 @@ Animator:
   m_GameObject: {fileID: 864895231}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -34448,6 +34874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34476,7 +34906,7 @@ Animator:
   m_GameObject: {fileID: 875958165}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -34854,6 +35284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -35223,7 +35657,7 @@ Animator:
   m_GameObject: {fileID: 917125898}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -35234,6 +35668,100 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &935684851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935684853}
+  - component: {fileID: 935684852}
+  m_Layer: 0
+  m_Name: Point Light (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &935684852
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935684851}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.1136707, b: 0, a: 1}
+  m_Intensity: 2.11
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &935684853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935684851}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.038854744, y: 0.73595685, z: -0.042086154, w: -0.6746011}
+  m_LocalPosition: {x: 0.11299896, y: 0.64100003, z: -0.60699844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 230939742}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &936937766
 GameObject:
   m_ObjectHideFlags: 0
@@ -35489,6 +36017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35517,7 +36049,7 @@ Animator:
   m_GameObject: {fileID: 953866673}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -35735,6 +36267,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36105,7 +36641,7 @@ Animator:
   m_GameObject: {fileID: 959762239}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -36429,6 +36965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36457,7 +36997,7 @@ Animator:
   m_GameObject: {fileID: 981503459}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -37288,13 +37828,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -42417,6 +42959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -42786,7 +43332,7 @@ Animator:
   m_GameObject: {fileID: 1010604608}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -43225,6 +43771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -43594,7 +44144,7 @@ Animator:
   m_GameObject: {fileID: 1023189717}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -43976,6 +44526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44004,7 +44558,7 @@ Animator:
   m_GameObject: {fileID: 1035150854}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -44377,6 +44931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44405,7 +44963,7 @@ Animator:
   m_GameObject: {fileID: 1050786883}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -44749,6 +45307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44777,7 +45339,7 @@ Animator:
   m_GameObject: {fileID: 1054959621}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -45396,6 +45958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45424,7 +45990,7 @@ Animator:
   m_GameObject: {fileID: 1074050097}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -46588,6 +47154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46616,7 +47186,7 @@ Animator:
   m_GameObject: {fileID: 1126041324}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -46777,6 +47347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46805,7 +47379,7 @@ Animator:
   m_GameObject: {fileID: 1153133498}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -47235,6 +47809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47263,7 +47841,7 @@ Animator:
   m_GameObject: {fileID: 1164206689}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -47754,6 +48332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -48123,7 +48705,7 @@ Animator:
   m_GameObject: {fileID: 1181496637}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -48214,6 +48796,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5939320149113278458, guid: 9775e52dfb0bafe429136d3a1899b336, type: 3}
       insertIndex: -1
       addedObject: {fileID: 259404337}
+    - targetCorrespondingSourceObject: {fileID: 5939320149113278458, guid: 9775e52dfb0bafe429136d3a1899b336, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 259404343}
   m_SourcePrefab: {fileID: 100100000, guid: 9775e52dfb0bafe429136d3a1899b336, type: 3}
 --- !u!1 &1189937779
 GameObject:
@@ -48563,6 +49148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48591,7 +49180,7 @@ Animator:
   m_GameObject: {fileID: 1198242542}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -48846,6 +49435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48874,7 +49467,7 @@ Animator:
   m_GameObject: {fileID: 1212342037}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -48941,6 +49534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48969,7 +49566,7 @@ Animator:
   m_GameObject: {fileID: 1214610570}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -49402,6 +49999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49430,7 +50031,7 @@ Animator:
   m_GameObject: {fileID: 1228590000}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -49441,6 +50042,111 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1231645638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1231645642}
+  - component: {fileID: 1231645641}
+  - component: {fileID: 1231645640}
+  - component: {fileID: 1231645639}
+  m_Layer: 0
+  m_Name: Cube (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1231645639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231645638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1231645640
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231645638}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebff8e62adfb18a4bb9173846e16663a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1231645641
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231645638}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1231645642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231645638}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -12.398, y: 1.03, z: 14.423}
+  m_LocalScale: {x: 2.100308, y: 0.20509008, z: 0.050819}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &1233706376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49496,6 +50202,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49866,7 +50576,7 @@ Animator:
   m_GameObject: {fileID: 1233706445}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -49933,6 +50643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49961,7 +50675,7 @@ Animator:
   m_GameObject: {fileID: 1236591653}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -50028,6 +50742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50056,7 +50774,7 @@ Animator:
   m_GameObject: {fileID: 1236947699}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -51287,6 +52005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51315,7 +52037,7 @@ Animator:
   m_GameObject: {fileID: 1273106920}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -51487,6 +52209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51515,7 +52241,7 @@ Animator:
   m_GameObject: {fileID: 1284315470}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -51581,6 +52307,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51951,7 +52681,7 @@ Animator:
   m_GameObject: {fileID: 1290512162}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -52018,6 +52748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52046,7 +52780,7 @@ Animator:
   m_GameObject: {fileID: 1291075195}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -52359,6 +53093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52387,7 +53125,7 @@ Animator:
   m_GameObject: {fileID: 1301094151}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -52711,6 +53449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52739,7 +53481,7 @@ Animator:
   m_GameObject: {fileID: 1306626061}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -53204,6 +53946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53232,7 +53978,7 @@ Animator:
   m_GameObject: {fileID: 1327989641}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -53497,6 +54243,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53867,7 +54617,7 @@ Animator:
   m_GameObject: {fileID: 1335402710}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -54274,6 +55024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54302,7 +55056,7 @@ Animator:
   m_GameObject: {fileID: 1343971623}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -54400,6 +55154,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -54770,7 +55528,7 @@ Animator:
   m_GameObject: {fileID: 1348494780}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -55123,6 +55881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55151,7 +55913,7 @@ Animator:
   m_GameObject: {fileID: 1367510898}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -55370,6 +56132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55398,7 +56164,7 @@ Animator:
   m_GameObject: {fileID: 1378851546}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -55664,6 +56430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55692,7 +56462,7 @@ Animator:
   m_GameObject: {fileID: 1384667702}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -55759,6 +56529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55787,7 +56561,7 @@ Animator:
   m_GameObject: {fileID: 1387196957}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -55854,6 +56628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55882,7 +56660,7 @@ Animator:
   m_GameObject: {fileID: 1390539864}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -56217,7 +56995,6 @@ Transform:
   - {fileID: 1456801264}
   - {fileID: 1053347155}
   - {fileID: 1848357379}
-  - {fileID: 1970900557}
   - {fileID: 1675638950}
   - {fileID: 1539976738}
   - {fileID: 1914915551}
@@ -56286,6 +57063,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -56656,7 +57437,7 @@ Animator:
   m_GameObject: {fileID: 1409174135}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -58280,6 +59061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58308,7 +59093,7 @@ Animator:
   m_GameObject: {fileID: 1457799942}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -58480,6 +59265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58508,7 +59297,7 @@ Animator:
   m_GameObject: {fileID: 1461463930}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -59694,6 +60483,84 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501936625}
   m_Mesh: {fileID: 4300000, guid: f054e366653a7c14186595569de398f9, type: 3}
+--- !u!1001 &1503204370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 480082521}
+    m_Modifications:
+    - target: {fileID: 8130921514093185972, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515342407288, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515360841392, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_Name
+      value: Aparment_Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02597332
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.845654
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.764246
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160725675885458173, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8160725675885458173, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+    - {fileID: 8130921515342407288, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+    - {fileID: 8130921514093185972, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 8130921515360841380, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+--- !u!4 &1503204371 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8130921515361137296, guid: 39868262e399a4c48bf3739708613d2b, type: 3}
+  m_PrefabInstance: {fileID: 1503204370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1505070800
 GameObject:
   m_ObjectHideFlags: 0
@@ -59883,6 +60750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59911,7 +60782,7 @@ Animator:
   m_GameObject: {fileID: 1514483062}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -60072,6 +60943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60100,7 +60975,7 @@ Animator:
   m_GameObject: {fileID: 1532203863}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -60835,6 +61710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -61204,7 +62083,7 @@ Animator:
   m_GameObject: {fileID: 1555882838}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -61798,6 +62677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -62167,7 +63050,7 @@ Animator:
   m_GameObject: {fileID: 1593455228}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -62234,6 +63117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62262,7 +63149,7 @@ Animator:
   m_GameObject: {fileID: 1600409897}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -62633,6 +63520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62661,7 +63552,7 @@ Animator:
   m_GameObject: {fileID: 1606606045}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -62727,6 +63618,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63097,7 +63992,7 @@ Animator:
   m_GameObject: {fileID: 1607538922}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -63243,31 +64138,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.434
+      value: -12.79
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.875
+      value: 2.28
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19
+      value: 19.92
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9209091
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.06724108
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.3830045
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.02669469
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -63275,7 +64170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 1410217655167324839, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -63331,7 +64226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8678077545410959679, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_MoveSpeed
-      value: 4.27
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 8678077545410959679, guid: 2075274d7d6f54d428f9f03cc529a684, type: 3}
       propertyPath: m_UseGravity
@@ -63766,6 +64661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -63794,7 +64693,7 @@ Animator:
   m_GameObject: {fileID: 1628508035}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -64149,6 +65048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -64177,7 +65080,7 @@ Animator:
   m_GameObject: {fileID: 1656479797}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -64605,6 +65508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -64633,7 +65540,7 @@ Animator:
   m_GameObject: {fileID: 1669739292}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -64855,10 +65762,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4dc95b67fa1f88e4ba7a4ba0977ce743, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -65440,6 +66347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65468,7 +66379,7 @@ Animator:
   m_GameObject: {fileID: 1690579647}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -65629,6 +66540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65657,7 +66572,7 @@ Animator:
   m_GameObject: {fileID: 1692645779}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -65817,6 +66732,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -66187,7 +67106,7 @@ Animator:
   m_GameObject: {fileID: 1706212095}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -66198,100 +67117,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1716010306
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1716010307}
-  - component: {fileID: 1716010308}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1716010307
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716010306}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.76, y: -0.003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1970900557}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1716010308
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716010306}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 0.11764705, g: 0.699471, b: 1, a: 1}
-  m_Intensity: 1.63
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &1718947725
 GameObject:
   m_ObjectHideFlags: 0
@@ -66547,6 +67372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66575,7 +67404,7 @@ Animator:
   m_GameObject: {fileID: 1725776700}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -67076,6 +67905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -67104,7 +67937,7 @@ Animator:
   m_GameObject: {fileID: 1740259233}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -67632,6 +68465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -67660,7 +68497,7 @@ Animator:
   m_GameObject: {fileID: 1770989133}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -67727,6 +68564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -67755,7 +68596,7 @@ Animator:
   m_GameObject: {fileID: 1773289655}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -68202,6 +69043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -68571,7 +69416,7 @@ Animator:
   m_GameObject: {fileID: 1803526214}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -68897,6 +69742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68925,7 +69774,7 @@ Animator:
   m_GameObject: {fileID: 1820261115}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -70053,6 +70902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -70422,7 +71275,7 @@ Animator:
   m_GameObject: {fileID: 1867247469}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -70489,6 +71342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70517,7 +71374,7 @@ Animator:
   m_GameObject: {fileID: 1874931711}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -70990,6 +71847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71018,7 +71879,7 @@ Animator:
   m_GameObject: {fileID: 1880976412}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -71168,6 +72029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71196,7 +72061,7 @@ Animator:
   m_GameObject: {fileID: 1883114079}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -71571,6 +72436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71599,7 +72468,7 @@ Animator:
   m_GameObject: {fileID: 1902692620}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -71759,6 +72628,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -72129,7 +73002,7 @@ Animator:
   m_GameObject: {fileID: 1908376399}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -72145,27 +73018,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1509161028143826, guid: c9839eba1bd794ae68f9cfae147fd22d, type: 3}
   m_PrefabInstance: {fileID: 526604695}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1908920139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908920138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5eb7d991a327ca46a75b843ecf80d82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGrabbed: 0
-  grabInteractable: {fileID: 1908920141}
-  destroyOnGrab: {fileID: 0}
-  appearOnGrab: {fileID: 0}
-  lights: {fileID: 0}
-  animator1: {fileID: 0}
-  animator2: {fileID: 0}
-  followCube: {fileID: 1505070800}
-  map: {fileID: 0}
 --- !u!64 &1908920140
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -72428,6 +73280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72456,7 +73312,7 @@ Animator:
   m_GameObject: {fileID: 1909036516}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -72735,6 +73591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72763,7 +73623,7 @@ Animator:
   m_GameObject: {fileID: 1925437536}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -73286,6 +74146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -73655,7 +74519,7 @@ Animator:
   m_GameObject: {fileID: 1929944541}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -73726,6 +74590,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74096,7 +74964,7 @@ Animator:
   m_GameObject: {fileID: 1943761386}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -74685,6 +75553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74713,7 +75585,7 @@ Animator:
   m_GameObject: {fileID: 1968514569}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -74724,175 +75596,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1970900556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1970900557}
-  - component: {fileID: 1970900563}
-  - component: {fileID: 1970900562}
-  - component: {fileID: 1970900561}
-  - component: {fileID: 1970900560}
-  - component: {fileID: 1970900558}
-  m_Layer: 0
-  m_Name: WriterRoomPortal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1970900557
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970900556}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -8.984, y: 3.038, z: 46.999}
-  m_LocalScale: {x: 0.18270999, y: 2.6038408, z: 1.3899773}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1716010307}
-  m_Father: {fileID: 1408473783}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!54 &1970900558
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970900556}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!328 &1970900560
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970900556}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 30434dc895cf743409a110c3dd9a8472, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 3
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
-  m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 1
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
---- !u!65 &1970900561
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970900556}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.2255485, y: 1, z: 0.9999993}
-  m_Center: {x: -0.13227437, y: 0, z: -0.000000089908916}
---- !u!23 &1970900562
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970900556}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e774807bbdea92943b4a5e64a6649734, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1970900563
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970900556}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1973300011
 GameObject:
   m_ObjectHideFlags: 0
@@ -76989,6 +77692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -77017,7 +77724,7 @@ Animator:
   m_GameObject: {fileID: 2033146365}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -77818,6 +78525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -77846,7 +78557,7 @@ Animator:
   m_GameObject: {fileID: 2059180725}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -77913,6 +78624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -77941,7 +78656,7 @@ Animator:
   m_GameObject: {fileID: 2061095700}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -78195,6 +78910,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
       propertyPath: m_Name
       value: ClownClapping (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -78565,7 +79284,7 @@ Animator:
   m_GameObject: {fileID: 2065915048}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -78632,6 +79351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78660,7 +79383,7 @@ Animator:
   m_GameObject: {fileID: 2074975841}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -78727,6 +79450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78755,7 +79482,7 @@ Animator:
   m_GameObject: {fileID: 2078513304}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -78822,6 +79549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78850,7 +79581,7 @@ Animator:
   m_GameObject: {fileID: 2084434878}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -78917,6 +79648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78945,7 +79680,7 @@ Animator:
   m_GameObject: {fileID: 2086663743}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -79867,6 +80602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79895,7 +80634,7 @@ Animator:
   m_GameObject: {fileID: 2142287372}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -79962,6 +80701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79990,7 +80733,7 @@ Animator:
   m_GameObject: {fileID: 2146984260}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -80057,6 +80800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClownClapping (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b5b02508559f1d4b8111bb1d1bbbebb, type: 3}
+      propertyPath: m_TagString
+      value: Clown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -80085,7 +80832,7 @@ Animator:
   m_GameObject: {fileID: 2147328055}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8514049bd738ff145803cddecc59412d, type: 2}
+  m_Controller: {fileID: 9100000, guid: b1b561eb0836b054788c6fd5f4a1cd21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -80105,8 +80852,11 @@ SceneRoots:
   - {fileID: 480082521}
   - {fileID: 1345251011}
   - {fileID: 1275177149}
+  - {fileID: 116843449}
   - {fileID: 6825568}
+  - {fileID: 1231645642}
   - {fileID: 738959755}
+  - {fileID: 507410938}
   - {fileID: 461308737}
   - {fileID: 1272096584}
   - {fileID: 1677206111}
