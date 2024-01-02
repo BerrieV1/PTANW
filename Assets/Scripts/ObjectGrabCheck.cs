@@ -5,7 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ObjectGrabCheck : MonoBehaviour
 {
-   public bool isGrabbed = false;
+   private bool isGrabbed = false;
    public XRGrabInteractable grabInteractable;
    public GameObject destroyOnGrab;
    public GameObject appearOnGrab;
@@ -18,6 +18,7 @@ public class ObjectGrabCheck : MonoBehaviour
     public GameObject map;
     private float timer = 0f;
     private float delay = 1f;
+    public GameObject figures;
 
    void Start()
    {
@@ -31,7 +32,7 @@ public class ObjectGrabCheck : MonoBehaviour
 
     void Update()
     {
-        //isGrabbed = grabInteractable.isSelected;
+        isGrabbed = grabInteractable.isSelected;
         if (isGrabbed)
         {
             appearOnGrab.SetActive(true);
@@ -51,6 +52,7 @@ public class ObjectGrabCheck : MonoBehaviour
             animator2.Play("RiseAnimation");
             animator3.Play("AppearingDoorAnimation");
             Destroy(followCube);
+            Destroy(figures);
             map.SetActive(false);
         }
     }
